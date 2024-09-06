@@ -1,0 +1,15 @@
+Consider the following news article about superintendents, delimited by triple quotes:
+
+"""
+[STATEMENT]
+"""
+
+Follow these steps:
+
+1. Analyze the entire text.
+2. Look at the following topic labels: [LABELS1], and the following sentiment labels: [LABELS2].
+3. Rate each topic label independently on a scale of 0 to 1, based on how well it describes the content of the news article. (Each rating is independent and doesn't need to add up to 1.)
+4. Rate each sentiment label independently on a scale of 0 to 1, based on how well it describes the tone of the news article. (Each rating is independent and doesn't need to add up to 1.)
+5. Create a valid JSON file with each topic and sentiment label as a key and your ratings as the associated values. Wrap the entire JSON structure with curly brackets.
+
+Please provide the resulting valid JSON file with the topic and sentiment labels and their ratings.
